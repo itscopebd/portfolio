@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import img from "../../assets/image/rofiq.png"
 const HeroSection = () => {
     return (
-        <div className=' bg-black'>
+        <div className=''>
             <div className='grid md:grid-cols-2 lg:grid-cols-2 items-center justify-between h-screen container mx-auto'>
                 <div className='pr-16'>
                     <div className='text-white'>
@@ -32,8 +32,8 @@ const HeroSection = () => {
 
                     </div>
                 </div>
-                <div className='bg-black text flex justify-center'>
-                    <img src={img} alt="" />
+                <div className='text flex justify-center'>
+                    <img className='h-full' src={img} alt="" />
                 </div>
             </div>
         </div>
