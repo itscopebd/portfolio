@@ -6,10 +6,10 @@ const Main = () => {
     return (
         <>
             <Navbar></Navbar>
-            <div className='container mx-auto'>
+        
                 <Outlet></Outlet>
 
-            </div>
+            
         </>
 
     );
