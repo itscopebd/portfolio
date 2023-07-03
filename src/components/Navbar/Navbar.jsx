@@ -1,18 +1,20 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navbar = <>
-        <li><NavLink to="/">Home</NavLink> </li>
-        <li><NavLink to="/">About</NavLink> </li>
-        <li><NavLink to="/">Skills</NavLink> </li>
-        <li><NavLink to="/">Portfolio</NavLink> </li>
-        <li><NavLink to="/">Contact</NavLink> </li>
+      
+        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>HOME</Link> </li>
+        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>ABOUT</Link> </li>
+        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>SKILLS</Link> </li>
+        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>PORTFOLIO</Link> </li>
+        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>CONTACT US</Link> </li>
       
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className=' bg-[#FFA500]'>
+        <div className="navbar container mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,11 +22,12 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
 
-                        {navbar}
-
+                    {navbar}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a className="background-animate bg-gradient-to-r from-green-800 via-white uppercase to-black bg-clip-text flex justify-center items-center content-center w-full text-transparent select-none text-3xl italic"> 
+       Rofiqul 
+      </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -33,8 +36,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn hover:bg-black hover:text-white border-none bg-white">My Resume</a>
             </div>
+        </div>
         </div>
     );
 };

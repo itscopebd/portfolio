@@ -1,3 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.background-animate {
+    background-size: 200%;
+    -webkit-animation: AnimateBackgroud 5s ease infinite;
+    -moz-animation: AnimateBackgroud 5s ease infinite;
+    animation: AnimateBackgroud 5s ease infinite;
+  }
+  
+  @keyframes AnimateBackgroud {
+    0% {
+      background-position: 0;
+    }
+    50% {
+      background-position: 100%;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
