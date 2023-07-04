@@ -27,7 +27,7 @@ const HeroSection = () => {
                             style={{ fontSize: '4em' }}
                             repeat={Infinity} preRenderFirstString={true} omitDeletionAnimation={true}
                        />
-                        <h2 className='text-justify'>Welcome to my portfolio! I'm Humayun Kabir, a dedicated web developer passionate about crafting engaging and innovative digital experiences. From designing stunning user interfaces to implementing robust back-end solutions, I thrive on turning ideas into reality. Explore my work and let's embark on a journey of creativity and excellence together.</h2>
+                        <h2 className='text-justify'>Welcome to my portfolio! I'm Rofiqul Islam, a dedicated web developer passionate about crafting engaging and innovative digital experiences. From designing stunning user interfaces to implementing robust back-end solutions, I thrive on turning ideas into reality. Explore my work and let's embark on a journey of creativity and excellence together.</h2>
 
 
                     </div>
