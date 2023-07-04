@@ -69,6 +69,29 @@ body{
 .bg__css4{
   background-image: url('./assets/image/bikezoon.png');
 }
+.bg__css5{
+  background-image: url('./assets/image/tea-house.png');
+}
+/* javacript projects  */
+.bg__js1{
+  background-image: url('./assets/image/country.png');
+}
+
+/* react projects  */
+.bg__react1{
+  background-image: url('./assets/image/toyfriend.png');
+}
+.bg__react2{
+  background-image: url('./assets/image/yago.png');
+}
+.bg__react3{
+  background-image: url('./assets/image/foodzoon.png');
+}
+.bg__react4{
+  background-image: url('./assets/image/blood.png');
+}
+
+
 .project__image:hover{
 
   background-position: bottom;
