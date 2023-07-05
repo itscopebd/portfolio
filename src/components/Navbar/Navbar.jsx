@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import rofiqul from "../../assets/image/Resume-Rofiqul.pdf"
 const Navbar = () => {
     const navbar = <>
       
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn hover:bg-black hover:text-white border-none bg-white">My Resume</a>
+                <a className="btn hover:bg-black hover:text-white border-none bg-white" href={rofiqul} download={true}>My Resume</a>
             </div>
         </div>
         </div>
