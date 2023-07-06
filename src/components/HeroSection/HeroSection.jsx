@@ -14,8 +14,8 @@ const HeroSection = () => {
 
     return (
         <div className=''>
-            <div className='flex flex-col-reverse md:flex-row justify-center items-center md:justify-between h-screen container mx-auto'>
-                <div className='px-7 md:pr-16 w-12/12 md:w-6/12'>
+            <div className='flex flex-col-reverse lg:flex-row justify-center items-center md:justify-between h-screen container mx-auto'>
+                <div className='px-7 md:pr-16 w-12/12 lg:w-6/12'>
                     <div data-aos="fade-up" className='text-white'>
                         <p className='text-xl'>Hey, I'm </p>
                         <h1 className='text-3xl md:text-4xl mb-2 md:mb-4 mt-4'>Md. Rofiqul Islam</h1>
@@ -44,8 +44,8 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' w-6/12 text flex justify-center' data-aos="fade-up">
-                    <img className='h-full' src={img} alt="" />
+                <div className=' w-12/12 lg:w-6/12 text flex justify-center' data-aos="fade-up">
+                    <img className='h-full w-full' src={img} alt="" />
                 </div>
             </div>
         </div>

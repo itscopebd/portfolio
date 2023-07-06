@@ -3,7 +3,8 @@ import React from 'react';
 import { FaBeer, FaEnvelope, FaFacebook, FaGithub, FaLinkedin, FaLocationArrow, FaPhone } from 'react-icons/fa';
 const Footer = () => {
     return (
-        <div className='container mx-auto pl-10 gap-5 md:gap-0 grid md:grid-cols-3 pb-16 mt-10'>
+        <>
+        <div className='container mx-auto pl-10 gap-5 md:gap-0 grid md:grid-cols-3 pb-16 mt-10 md:mt-7'>
             <div className='text-white'>
                 <h3 className='text-2xl mb-3'> Md. Rofiqul islam </h3>
                 <p className='mb-2'>MERN Stack Developer</p>
@@ -30,6 +31,8 @@ const Footer = () => {
 
             </div>
         </div>
+        <p className='text-white text-center border-b-2 border-white pb-10'>Copyright © 2023 - All right reserved by Rofiqul islam</p>
+        </>
     );
 };
 
