@@ -12,7 +12,7 @@ const Skills = () => {
                 <h3 className='text-center py-3 text-4xl text-white'>My Skills</h3>
             </div>
 
-            <div className='grid px-5 md:px-0 min-[550px]:grid-cols-3 min-[376px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-5 mt-16'>
+            <div className='grid px-5 md:px-0 min-[550px]:grid-cols-3 min-[350px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-5 mt-16'>
 
                 <div className="shadow-sm shadow-[#FFA500]">
                     <div className="card-body py-3 items-center text-center text-white">
