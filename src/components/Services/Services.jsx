@@ -7,7 +7,7 @@ import shopify from "../../assets/image/shopify.png"
 import figma from "../../assets/image/figma.png"
 const Services = () => {
     return (
-        <div>
+        <div id='services'>
             <div className='py-16 container mx-auto'>
                 <div className='relative section__title my-10'>
                     <h3 className='text-center py-3 text-4xl text-white'>Services</h3>

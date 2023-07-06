@@ -5,6 +5,7 @@ import Projects from '../../components/Projects/Projects';
 import Quality from '../../components/Quality/Quality';
 import Services from '../../components/Services/Services';
 import Contact from '../../components/Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <Projects></Projects>
             <Services></Services>
             <Contact></Contact>
+           
 
         </div>
     );

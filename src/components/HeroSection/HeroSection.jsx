@@ -1,6 +1,8 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import img from "../../assets/image/rofiq.png"
+import { FaDownload } from 'react-icons/fa';
+import rofiqul from "../../assets/image/Resume-Rofiqul.pdf"
 const HeroSection = () => {
     return (
         <div className=''>
@@ -26,10 +28,12 @@ const HeroSection = () => {
                             speed={75}
                             style={{ fontSize: '4em' }}
                             repeat={Infinity} preRenderFirstString={true} omitDeletionAnimation={true}
-                       />
+                        />
                         <h2 className='text-justify'>Welcome to my portfolio! I'm Rofiqul Islam , a dedicated web developer passionate about crafting engaging and innovative digital experiences. From designing stunning user interfaces to implementing robust back-end solutions, I thrive on turning ideas into reality. Explore my work and let's embark on a journey of creativity and excellence together.</h2>
 
-
+                        <div className='flex'>
+                        <a href={rofiqul} download={true} className='flex gap-2 items-center px-3 py-3 mt-5 rounded-md hover:bg-transparent hover:border-2 border-2 border-[#FFA500] bg-[#FFA500]'>Resume Download <FaDownload></FaDownload> </a>
+                        </div>
                     </div>
                 </div>
                 <div className='text flex justify-center'>

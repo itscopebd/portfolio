@@ -1,10 +1,10 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import { FaBeer, FaGithub, FaLink } from 'react-icons/fa';
+import { FaGithub, FaLink } from 'react-icons/fa';
 const Projects = () => {
     return (
-        <div className='py-16 container mx-auto'>
+        <div className='py-16 container mx-auto' id='projects'>
             <div className='relative section__title my-10'>
                 <h3 className='text-center py-3 text-4xl text-white'>My Projects</h3>
             </div>

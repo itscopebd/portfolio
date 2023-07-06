@@ -11,7 +11,7 @@ const Contact = () => {
         }
     };
     return (
-        <div>
+        <div id='contact'>
             <div className='py-16 container mx-auto'>
                 <div className='relative section__title mt-10'>
                     <h3 className='text-center py-3 text-4xl text-white'>Contact With Me</h3>

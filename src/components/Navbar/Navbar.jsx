@@ -4,16 +4,17 @@ import rofiqul from "../../assets/image/Resume-Rofiqul.pdf"
 const Navbar = () => {
     const navbar = <>
       
-        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>HOME</Link> </li>
-        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>ABOUT</Link> </li>
-        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>SKILLS</Link> </li>
-        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>PORTFOLIO</Link> </li>
-        <li className=' text-base text-white'><Link to="/" className=' hover:bg-transparent'>CONTACT US</Link> </li>
+        <li className=' text-base text-white'><a href="/" className=' hover:bg-transparent hover:text-[#FFA500]'>HOME</a> </li>
+        <li className=' text-base text-white'><a href="/" className=' hover:bg-transparent hover:text-[#FFA500] '>ABOUT</a> </li>
+        <li className=' text-base text-white'><a href="#skills" className=' hover:text-[#FFA500] hover:bg-transparent' >SKILLS</a> </li>
+        <li className=' text-base text-white'><a href="#projects" className=' hover:text-[#FFA500] hover:bg-transparent'>PORTFOLIO</a> </li>
+        <li className=' text-base text-white'><a href="#services" className=' hover:text-[#FFA500] hover:bg-transparent'>SERVICES</a> </li>
+        <li className=' text-base text-white'><a  href="#contact" className=' hover:text-[#FFA500] hover:bg-transparent'>CONTACT US</a> </li>
       
     </>
 
     return (
-        <div className=' bg-[#FFA500]'>
+        <div className='py-2 fixed w-full bg-[#0d1e3a] border-b-2 border-[#02112a] z-50'>
         <div className="navbar container mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -25,7 +26,7 @@ const Navbar = () => {
                     {navbar}
                     </ul>
                 </div>
-                <a className="background-animate bg-gradient-to-r from-green-800 via-white uppercase to-black bg-clip-text flex justify-center items-center content-center w-full text-transparent select-none text-3xl italic"> 
+                <a href='#' className=" flex items-center content-center w-full text-[#FFA500] text-3xl italic"> 
        Rofiqul 
       </a>
             </div>
@@ -36,7 +37,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn hover:bg-black hover:text-white border-none bg-white" href={rofiqul} download={true}>My Resume</a>
+                <a className='px-3 py-3 rounded-md hover:bg-transparent hover:border-2 border-2 border-[#FFA500] bg-[#FFA500] text-white' href={rofiqul} download={true}>My Resume</a>
             </div>
         </div>
         </div>

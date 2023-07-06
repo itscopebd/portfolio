@@ -6,10 +6,12 @@
 
 body{
   background-color: #141f31;
+  scroll-behavior: smooth;
 }
 
 * {
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 
 }
 
@@ -47,7 +49,7 @@ body{
 
 /* projects  */
 .project__image{
-  transition: ease-in-out 8s;
+  transition: ease-in-out 2s;
   background-position: top;
   background-size: cover;
   width: 100%;
