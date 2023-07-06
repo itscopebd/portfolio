@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import creative from "../../assets/image/creative.png"
 import development from "../../assets/image/development.png"
 import responsive from "../../assets/image/responsive.png"
 import wordpress from "../../assets/image/wordpress.png"
 import shopify from "../../assets/image/shopify.png"
-import figma from "../../assets/image/figma.png"
+import figma from "../../assets/image/figma.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Services = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+
+    }, []);
+    
     return (
-        <div id='services'>
+        <div id='services' data-aos="fade-up">
             <div className='py-16 container mx-auto'>
                 <div className='relative section__title my-10'>
                     <h3 className='text-center py-3 text-4xl text-white'>Services</h3>

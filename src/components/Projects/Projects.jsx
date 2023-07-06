@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { FaGithub, FaLink } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Projects = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+
+    }, []);
     return (
-        <div className='py-16 container mx-auto' id='projects'>
+        <div className='py-16 container mx-auto' id='projects' >
             <div className='relative section__title my-10'>
                 <h3 className='text-center py-3 text-4xl text-white'>My Projects</h3>
             </div>
@@ -21,7 +27,7 @@ const Projects = () => {
 
                 {/* html css projects  */}
                 <TabPanel>
-                    <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
+                    <div data-aos="fade-up-left" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
                         <div className="card bg-base-100 shadow-xl">
                             <figure className='bg__css1 project__image'>
 
@@ -128,7 +134,7 @@ const Projects = () => {
                 </TabPanel>
                 <TabPanel>
                     {/* Javascript projects  */}
-                    <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
+                    <div  data-aos="fade-up-left" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
 
                         <div className="card bg-base-100 shadow-xl">
                             <figure className='bg__js1 project__image'>
@@ -156,7 +162,7 @@ const Projects = () => {
 
                 <TabPanel>
                     {/* React projects  */}
-                    <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
+                    <div data-aos="fade-up-left" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
 
                         <div className="card bg-base-100 shadow-xl">
                             <figure className='bg__react1 project__image'>

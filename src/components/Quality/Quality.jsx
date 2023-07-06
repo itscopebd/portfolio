@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import perfectImage from "../../assets/image/perfect.png"
 import ideaImage from "../../assets/image/idea.png"
-import bestImage from "../../assets/image/best.png"
+import bestImage from "../../assets/image/best.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Quality = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+
+    }, []);
     return (
-        <div className='container bg-white mx-auto grid md:grid-cols-3 gap-10'>
+        <div className='container bg-white mx-auto grid md:grid-cols-3 gap-10' data-aos="fade-up">
             <div className="card py-10">
                 <figure><img className='w-32 h-32' src={perfectImage} alt="Shoes" /></figure>
                 <div className="card-body border-none text-black">

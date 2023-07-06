@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Lottie from 'react-lottie';
-import animationData from "../../lottie/email.json"
+import animationData from "../../lottie/email.json";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Contact = () => {
     const defaultOptions = {
         loop: true,
@@ -10,8 +12,13 @@ const Contact = () => {
             preserveAspectRatio: "xMidYMid slice"
         }
     };
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+
+    }, []);
+
     return (
-        <div id='contact'>
+        <div id='contact' data-aos="fade-up">
             <div className='py-16 container mx-auto'>
                 <div className='relative section__title mt-10'>
                     <h3 className='text-center py-3 text-4xl text-white'>Contact With Me</h3>

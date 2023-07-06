@@ -1,8 +1,13 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Skills = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+
+    }, []);
     return (
-        <div className='container mx-auto pb-16 ' id='skills'>
+        <div className='container mx-auto pb-16 ' id='skills' data-aos="fade-up">
             <div className='relative section__title my-10'>
                 <h3 className='text-center py-3 text-4xl text-white'>My Skills</h3>
             </div>
