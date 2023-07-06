@@ -22,7 +22,7 @@ const Services = () => {
                 </div>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
 
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={creative} alt="Shoes" /></figure>
@@ -36,7 +36,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={development} alt="Shoes" /></figure>
@@ -51,7 +51,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={responsive} alt="Shoes" /></figure>
@@ -66,7 +66,7 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={wordpress} alt="Shoes" /></figure>
@@ -80,7 +80,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={shopify} alt="Shoes" /></figure>
@@ -94,7 +94,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={figma} alt="Shoes" /></figure>
