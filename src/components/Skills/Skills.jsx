@@ -7,12 +7,12 @@ const Skills = () => {
 
     }, []);
     return (
-        <div className='container mx-auto pb-16 ' id='skills' data-aos="fade-up">
+        <div className='container mx-auto pb-10 ' id='skills' data-aos="fade-up">
             <div className='relative section__title my-10'>
                 <h3 className='text-center py-3 text-4xl text-white'>My Skills</h3>
             </div>
 
-            <div className='grid grid-cols-8 gap-5 mt-16'>
+            <div className='grid px-10 md:px-0 min-[550px]:grid-cols-3 min-[376px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-5 mt-16'>
 
                 <div className="shadow-sm shadow-[#FFA500]">
                     <div className="card-body py-3 items-center text-center text-white">

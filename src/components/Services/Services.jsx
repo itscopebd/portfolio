@@ -16,7 +16,7 @@ const Services = () => {
     
     return (
         <div id='services' data-aos="fade-up">
-            <div className='py-16 container mx-auto'>
+            <div className='pt-5 container mx-auto px-5 md:px-0'>
                 <div className='relative section__title my-10'>
                     <h3 className='text-center py-3 text-4xl text-white'>Services</h3>
                 </div>

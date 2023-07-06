@@ -10,8 +10,8 @@ const Quality = () => {
 
     }, []);
     return (
-        <div className='container bg-white mx-auto grid md:grid-cols-3 gap-10' data-aos="fade-up">
-            <div className="card py-10">
+        <div className='container bg-white mx-auto grid md:grid-cols-3 gap-5 md:gap-10' data-aos="fade-up">
+            <div className="card pt-10">
                 <figure><img className='w-32 h-32' src={perfectImage} alt="Shoes" /></figure>
                 <div className="card-body border-none text-black">
                     <h2 className="card-title text-center text-3xl block">Pixel Perfect</h2>
@@ -19,7 +19,7 @@ const Quality = () => {
                   
                 </div>
             </div>
-            <div className="card py-10">
+            <div className="card">
                 <figure><img className='w-32 h-32' src={bestImage} alt="Shoes" /></figure>
                 <div className="card-body border-none text-black">
                     <h2 className="card-title text-center text-3xl block">High Quality</h2>
@@ -27,7 +27,7 @@ const Quality = () => {
                   
                 </div>
             </div>
-            <div className="card py-10 ">
+            <div className="card pb-10 ">
                 <figure><img className='w-32 h-32' src={ideaImage} alt="Shoes" /></figure>
                 <div className="card-body border-none text-black">
                     <h2 className="card-title text-center text-3xl block">Awesome Idea</h2>

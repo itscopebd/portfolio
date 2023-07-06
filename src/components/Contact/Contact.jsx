@@ -19,12 +19,12 @@ const Contact = () => {
 
     return (
         <div id='contact' data-aos="fade-up">
-            <div className='py-16 container mx-auto'>
+            <div className='py-5 container mx-auto'>
                 <div className='relative section__title mt-10'>
                     <h3 className='text-center py-3 text-4xl text-white'>Contact With Me</h3>
                 </div>
-                <div className='flex gap-10 items-center'>
-                    <div className='w-6/12'>
+                <div className= ' px-5 md:px-0 flex flex-col-reverse md:flex-row gap-5 md:gap-10 md:items-center'>
+                    <div className='w-12/12 md:w-6/12'>
                         <form className='flex gap-5 flex-col'>
                             <div>
                                 <label htmlFor="" className='text-white'>Your Name</label>
@@ -43,11 +43,10 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-                    <div className='w-6/12'>
-                        <Lottie
+                    <div className='w-12/12 md:w-6/12'>
+                        <Lottie className="w-full"
                             options={defaultOptions}
-                            height={700}
-                            width={700}
+                            
                         />
                     </div>
                 </div>

@@ -10,24 +10,26 @@ const Projects = () => {
 
     }, []);
     return (
-        <div className='py-16 container mx-auto' id='projects' >
+        <div className='container mx-auto px-5 md:px-0' id='projects' >
             <div className='relative section__title my-10'>
                 <h3 className='text-center py-3 text-4xl text-white'>My Projects</h3>
             </div>
             <Tabs>
-                <TabList className='flex gap-5 mb-10'>
-                    <Tab className=" capitalize active:bg-[#FFA500]  btn shadow-sm shadow-[#FFA500] px-5 py-2 text-black">Css</Tab>
-                    <Tab className=" btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-black">Bootstrap</Tab>
-                    <Tab className=" btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-black"> Tailwindcss</Tab>
-                    <Tab className=" btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-black">Javascript</Tab>
-                    <Tab className=" btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-black">React Js</Tab>
+                <TabList className='flex flex-wrap gap-5 mb-10'>
+                    <Tab className=" btn-sm md:btn capitalize active:bg-[#FFA500] shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Css</Tab>
+                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Bootstrap</Tab>
+                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white"> Tailwindcss</Tab>
+                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Javascript</Tab>
+                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">React Js</Tab>
+                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Wordpress</Tab>
+                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Shopify</Tab>
                    
                 </TabList>
 
 
                 {/* html css projects  */}
                 <TabPanel>
-                    <div data-aos="fade-up-left" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
+                    <div data-aos="fade-up" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
                         <div className="card bg-base-100 shadow-xl">
                             <figure className='bg__css1 project__image'>
 
@@ -134,7 +136,7 @@ const Projects = () => {
                 </TabPanel>
                 <TabPanel>
                     {/* Javascript projects  */}
-                    <div  data-aos="fade-up-left" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
+                    <div data-aos="fade-up" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
 
                         <div className="card bg-base-100 shadow-xl">
                             <figure className='bg__js1 project__image'>
@@ -162,7 +164,7 @@ const Projects = () => {
 
                 <TabPanel>
                     {/* React projects  */}
-                    <div data-aos="fade-up-left" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
+                    <div data-aos="fade-up" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
 
                         <div className="card bg-base-100 shadow-xl">
                             <figure className='bg__react1 project__image'>
