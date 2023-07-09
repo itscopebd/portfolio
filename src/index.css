@@ -92,6 +92,29 @@ body{
 .bg__react4{
   background-image: url('./assets/image/blood.png');
 }
+/* wordpress  */
+
+
+.bg__wordpress1{
+  background-image: url('./assets/image/wordpress1.png');
+}
+
+
+/* shopify  */
+
+.bg__shopify1{
+  background-image: url('./assets/image/shopify1.png');
+}
+.bg__shopify2{
+  background-image: url('./assets/image/shopify2.png');
+}
+.bg__shopify3{
+  background-image: url('./assets/image/shopify3.png');
+}
+.bg__shopify4{
+  background-image: url('./assets/image/shopify4.png');
+}
+
 
 
 .project__image:hover{
